@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import React, { useState } from "react";
 import { headerData } from "../data/headerData";
 import HeaderItem from "./HeaderItem";
+import Logo from "../../assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
@@ -31,18 +32,17 @@ const Header = () => {
       <div
         className={
           navbar
-            ? " bg-transparent bg-opacity-95 backdrop-filter backdrop-blur-lg   flex  justify-between fixed top-0 left-0 right-0  items-center  p-2  w-[100%]  border-b-2 border-spacing-2 border-gray-100  transition ease-in delay-50  "
-            : "  flex  bg-transparent  backdrop-filter backdrop-blur-lg  justify-between items-center  p-2 fixed top-0 left-0 right-0   w-[100%] max-w-[100%]   transition ease-in delay-50 "
+            ? " bg-transparent bg-opacity-95 backdrop-filter backdrop-blur-sm  flex  justify-between fixed top-0 left-0 right-0  items-center  p-2  w-[100%]  border-b-2 border-spacing-2 border-gray-100  transition ease-in delay-50 z-50  "
+            : "  flex  bg-transparent   justify-between items-center  p-2 fixed top-0 left-0 right-0   w-[100%] max-w-[100%]   transition ease-in delay-50 z-50"
         }
       >
-        {/* <a href="/"> */}
-        {/* <img
-          className="h-14 py-3 pl-7 md:pl-10 lg:pl-20 "
-          src={logoMix}
+        <img
+          className="h-16 py-1 pl-7 md:pl-10 lg:pl-20 "
+          src={Logo}
           alt=""
           onClick={handleLogoClick}
-        /> */}
-        <p>logo</p>
+        />
+
         {/* </a> */}
         <ul className="hidden md:flex pr-7 md:pr-10 lg:pr-20 leading-[80px] space-x-1 lg:space-x-2 uppercase rounded">
           {headerData.map((item) => {
