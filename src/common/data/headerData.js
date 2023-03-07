@@ -11,22 +11,22 @@ export const headerData = [
   },
   {
     id: 3,
-    title: "Careers",
-    url: "/careers",
+    title: "Products",
+    url: "/products",
   },
   {
     id: 4,
-    title: "Services",
-    url: "/services",
+    title: "SignIn",
+    url: "/signin",
   },
   {
     id: 5,
-    title: "Blog",
-    url: "/blog",
+    title: "SignUp",
+    url: "/signup",
   },
   {
     id: 6,
-    title: "ContactUs",
-    url: "/contactus",
+    title: "Cart",
+    url: "/cart",
   },
 ];

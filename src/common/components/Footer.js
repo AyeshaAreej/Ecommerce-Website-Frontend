@@ -1,5 +1,5 @@
 import React from "react";
-// import Logo from "../../assets/Logo1.png";
+import Logo from "../../assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
@@ -24,11 +24,11 @@ const Footer = () => {
       style={{
         boxShadow: "0px 0px 40px  rgba(0,0,0,0.2)",
       }}
-      className="  backdrop-filter backdrop-blur-lg  footer w-[100%]  relative bottom-0 bg-white text-gray-500 pt-[50px] px-[30px]  shadow-xl  rounded-tl-[125px] leading-[20px] mt-[30px] "
+      className="  backdrop-filter backdrop-blur-lg  footer w-[100%]  relative bottom-0 bg-[#9C9A7E] text-white pt-[50px] px-[30px]  shadow-xl  rounded-tl-[125px] leading-[20px] mt-[30px] "
     >
       <div className="row grid grid-rows-4 sm:grid-rows-2 sm:grid-cols-2  md:grid-rows-1  md:grid-cols-4 gap-4 m-auto ">
         <div className="col p-[20px]">
-          {/* <img src={Logo} alt="Logo" className="logo w-[180px] mb-[22px] " /> */}
+          <img src={Logo} alt="Logo" className="logo w-[180px] mb-[22px] " />
           <p className="w-full max-w-[300px]  font-[Poppins] text-[0.908rem] tracking-[0.5px] leading-[1.5] ">
             DevStudio creates meaningful websites that offer simplictic user
             experiences, achieve high ranks on the most popular search engines
@@ -36,10 +36,10 @@ const Footer = () => {
           </p>
         </div>
         <div className="col  px-[20px] pt-[20px] sm:pt-[32px] md:pt-[40px] ">
-          <p className="text-gray-400 text-[1.5rem] tracking-[1px] font-[Poppins] font-semibold w-fit mb-[43px] relative">
+          <p className="text-teal-700 text-[1.5rem] tracking-[1px] font-[Poppins] font-semibold w-fit mb-[43px] relative">
             Office
             <div className="underline w-[100%] h-[5px] bg-[#767676] rounded-[3px] absolute top-6 left-0">
-              <span className="animate-loading w-[15px] h-[100%] bg-[#1D0B51] rounded-[3px] absolute top-0 left-[10px]"></span>
+              <span className="animate-loading w-[15px] h-[100%] bg-teal-700 rounded-[3px] absolute top-0 left-[10px]"></span>
             </div>
           </p>
           <p className="font-[Poppins] text-[1rem] tracking-[0.5px] font-normal leading-5">
@@ -59,21 +59,21 @@ const Footer = () => {
           </p>
         </div>
         <div className="col px-[20px] pt-[20px] md:pt-[40px] ">
-          <p className="text-gray-400 text-[1.5rem] tracking-[1px] font-[Poppins] font-semibold w-fit mb-[35px] relative">
+          <p className="text-teal-700 text-[1.5rem] tracking-[1px] font-[Poppins] font-semibold w-fit mb-[35px] relative">
             Links
             <div className="underline w-[100%] h-[5px] bg-[#767676] rounded-[3px] absolute top-6 left-0">
-              <span className="animate-loading w-[15px] h-[100%] bg-[#1D0B51] rounded-[3px] absolute top-0 left-[10px]"></span>
+              <span className="animate-loading w-[15px] h-[100%] bg-teal-700 rounded-[3px] absolute top-0 left-[10px]"></span>
             </div>
           </p>
           <ul>
             <li className="mb-[12px] hover:scale-y-150 ">
               <a
                 href="/"
-                className="text-gray-500 text-[1rem] tracking-[0.9px] font-normal "
+                className="text-white text-[1rem] tracking-[0.9px] font-normal "
               >
                 <FontAwesomeIcon
                   icon={faArrowRight}
-                  color={"#1D0B51"}
+                  color={"green"}
                   className="pr-2 "
                 />
                 Home
@@ -83,7 +83,7 @@ const Footer = () => {
               <a
                 href="#aboutUs"
                 onClick={handleClick}
-                className="text-gray-500 text-[1rem] tracking-[0.9px] font-normal "
+                className="text-white text-[1rem] tracking-[0.9px] font-normal "
               >
                 <FontAwesomeIcon
                   icon={faArrowRight}
@@ -97,7 +97,7 @@ const Footer = () => {
               <a
                 href="#services"
                 onClick={handleClick}
-                className="text-gray-500 text-[1rem] tracking-[0.9px] font-normal "
+                className="text-white text-[1rem] tracking-[0.9px] font-normal "
               >
                 <FontAwesomeIcon
                   icon={faArrowRight}
@@ -110,7 +110,7 @@ const Footer = () => {
             <li className="mb-[12px] hover:scale-y-150 ">
               <a
                 href="/get-quote"
-                className="text-gray-500 text-[1rem] tracking-[0.9px] font-normal "
+                className="text-white text-[1rem] tracking-[0.9px] font-normal "
               >
                 <FontAwesomeIcon
                   icon={faArrowRight}
@@ -124,7 +124,7 @@ const Footer = () => {
               <a
                 href="#contactUs"
                 onClick={handleClick}
-                className="text-gray-500 text-[1rem] tracking-[0.9px] font-normal "
+                className="text-white text-[1rem] tracking-[0.9px] font-normal "
               >
                 <FontAwesomeIcon
                   icon={faArrowRight}
@@ -137,20 +137,20 @@ const Footer = () => {
           </ul>
         </div>
         <div className="col px-[20px]  pt-[20px] md:pr-[20px]  md:pt-[40px] ">
-          <p className="text-gray-400 text-[1.5rem] tracking-[1px] font-[Poppins] font-semibold w-fit mb-[43px] relative">
+          <p className="text-teal-700 text-[1.5rem] tracking-[1px] font-[Poppins] font-semibold w-fit mb-[43px] relative">
             Newsletter
             <div className="underline w-[100%] h-[5px] bg-[#767676] rounded-[3px] absolute top-6 left-0">
-              <span className="animate-loading w-[15px] h-[100%] bg-[#1D0B51] rounded-[3px] absolute top-0 left-[10px]"></span>
+              <span className="animate-loading w-[15px] h-[100%] bg-teal-700 rounded-[3px] absolute top-0 left-[10px]"></span>
             </div>
           </p>
-          <form className="pb-[15px] flex justify-between items-center border-b border-[#1D0B51] mb-[44px] w-[100%]">
+          <form className="pb-[15px] flex justify-between items-center border-b border-teal-700 mb-[44px] w-[100%]">
             <FontAwesomeIcon
               icon={faEnvelope}
               color={"#1D0B51"}
               className="text-[18px] mr-[10px]"
             />
             <input
-              className="w-[100%] bg-transparent border-0 outline-none"
+              className="w-[100%] bg-transparent border-0 outline-none text-white"
               type="email"
               placeholder="Enter your email..."
               required
