@@ -30,9 +30,8 @@ const Footer = () => {
         <div className="col p-[20px]">
           <img src={Logo} alt="Logo" className="logo w-[180px] mb-[22px] " />
           <p className="w-full max-w-[300px]  font-[Poppins] text-[0.908rem] tracking-[0.5px] leading-[1.5] ">
-            DevStudio creates meaningful websites that offer simplictic user
-            experiences, achieve high ranks on the most popular search engines
-            and promote your brand to the widest possible audience.
+            Home Style is an interior design studio focused on creating high
+            quality, pesronalized interiors.
           </p>
         </div>
         <div className="col  px-[20px] pt-[20px] sm:pt-[32px] md:pt-[40px] ">
@@ -43,16 +42,16 @@ const Footer = () => {
             </div>
           </p>
           <p className="font-[Poppins] text-[1rem] tracking-[0.5px] font-normal leading-5">
-            124-A Babar Block
+            123-0 Test Street
           </p>
           <p className="font-[Poppins] text-[1rem] tracking-[0.5px] font-normal leading-5">
-            New Garden Town
+            New Town
           </p>
           <p className="font-[Poppins] text-[1rem] tracking-[0.5px] font-normal leading-5">
-            Lahore, Pakistan
+            Karachi,Pakistan
           </p>
           <p className="w-fit font-[Poppins] text-[1rem] tracking-[0.5px] font-normal leading-5 border-b border-[#ccc]  cursor-pointer my-[14px] mx-[0px]">
-            devstudio@gmail.com
+            homestyle@gmail.com
           </p>
           <p className="cursor-pointer font-[Poppins] text-[1rem] tracking-[0.5px] font-normal leading-5">
             +91 - 0123456789
@@ -95,7 +94,7 @@ const Footer = () => {
             </li>
             <li className="mb-[12px] hover:scale-y-150 ">
               <a
-                href="#services"
+                href="/products"
                 onClick={handleClick}
                 className="text-white text-[1rem] tracking-[0.9px] font-normal "
               >
@@ -104,34 +103,7 @@ const Footer = () => {
                   color={"#0F766E"}
                   className="pr-2 "
                 />
-                Services
-              </a>
-            </li>
-            <li className="mb-[12px] hover:scale-y-150 ">
-              <a
-                href="/get-quote"
-                className="text-white text-[1rem] tracking-[0.9px] font-normal "
-              >
-                <FontAwesomeIcon
-                  icon={faArrowRight}
-                  color={"#0F766E"}
-                  className="pr-2 "
-                />
-                Get a Quote
-              </a>
-            </li>
-            <li className="mb-[12px] hover:scale-y-150 ">
-              <a
-                href="#contactUs"
-                onClick={handleClick}
-                className="text-white text-[1rem] tracking-[0.9px] font-normal "
-              >
-                <FontAwesomeIcon
-                  icon={faArrowRight}
-                  color={"#0F766E"}
-                  className="pr-2 "
-                />
-                Contact Us
+                Products
               </a>
             </li>
           </ul>
