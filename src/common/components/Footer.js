@@ -73,7 +73,7 @@ const Footer = () => {
               >
                 <FontAwesomeIcon
                   icon={faArrowRight}
-                  color={"green"}
+                  color={"#0F766E"}
                   className="pr-2 "
                 />
                 Home
@@ -87,7 +87,7 @@ const Footer = () => {
               >
                 <FontAwesomeIcon
                   icon={faArrowRight}
-                  color={"#1D0B51"}
+                  color={"#0F766E"}
                   className="pr-2 "
                 />
                 About Us
@@ -101,7 +101,7 @@ const Footer = () => {
               >
                 <FontAwesomeIcon
                   icon={faArrowRight}
-                  color={"#1D0B51"}
+                  color={"#0F766E"}
                   className="pr-2 "
                 />
                 Services
@@ -114,7 +114,7 @@ const Footer = () => {
               >
                 <FontAwesomeIcon
                   icon={faArrowRight}
-                  color={"#1D0B51"}
+                  color={"#0F766E"}
                   className="pr-2 "
                 />
                 Get a Quote
@@ -128,7 +128,7 @@ const Footer = () => {
               >
                 <FontAwesomeIcon
                   icon={faArrowRight}
-                  color={"#1D0B51"}
+                  color={"#0F766E"}
                   className="pr-2 "
                 />
                 Contact Us
@@ -146,11 +146,11 @@ const Footer = () => {
           <form className="pb-[15px] flex justify-between items-center border-b border-teal-700 mb-[44px] w-[100%]">
             <FontAwesomeIcon
               icon={faEnvelope}
-              color={"#1D0B51"}
+              color={"#0F766E"}
               className="text-[18px] mr-[10px]"
             />
             <input
-              className="w-[100%] bg-transparent border-0 outline-none text-white"
+              className="w-[100%] bg-transparent placeholder:text-[#0F766E] border-0 outline-none text-[#0F766E]"
               type="email"
               placeholder="Enter your email..."
               required
@@ -161,7 +161,7 @@ const Footer = () => {
             >
               <FontAwesomeIcon
                 icon={faArrowRight}
-                color={"#1D0B51"}
+                color={"#0F766E"}
                 className=""
               />
             </button>
@@ -170,22 +170,22 @@ const Footer = () => {
             <FontAwesomeIcon
               icon={faFacebook}
               size="1x"
-              className="w-[40px] h-[40px] rounded-[50%]  text-center text-[20px] mr-[15px] text-[#1D0B51] cursor-pointer"
+              className="w-[40px] h-[40px] rounded-[50%]  text-center text-[20px] mr-[15px] text-[#0F766E] cursor-pointer"
             />
             <FontAwesomeIcon
               icon={faTwitter}
               size="1x"
-              className="w-[40px] h-[40px] rounded-[50%] text-center text-[20px] text-[#1D0B51] bg-transparent mr-[15px] cursor-pointer"
+              className="w-[40px] h-[40px] rounded-[50%] text-center text-[20px] text-[#0F766E] bg-transparent mr-[15px] cursor-pointer"
             />
             <FontAwesomeIcon
               icon={faGoogle}
               size="1x"
-              className="w-[40px] h-[40px] rounded-[50%] text-center text-[20px] text-[#1D0B51] bg-transparent mr-[15px] cursor-pointer"
+              className="w-[40px] h-[40px] rounded-[50%] text-center text-[20px] text-[#0F766E] bg-transparent mr-[15px] cursor-pointer"
             />
             <FontAwesomeIcon
               icon={faInstagram}
               size="1x"
-              className="w-[40px] h-[40px] rounded-[50%] text-center text-[20px] text-[#1D0B51] bg-transparent mr-[15px] cursor-pointer"
+              className="w-[40px] h-[40px] rounded-[50%] text-center text-[20px] text-[#0F766E] bg-transparent mr-[15px] cursor-pointer"
             />
           </div>
         </div>

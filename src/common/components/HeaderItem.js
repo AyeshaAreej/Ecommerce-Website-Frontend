@@ -11,7 +11,7 @@ const HeaderItem = ({ title, url, handleToggle }) => {
   return (
     <li>
       <a
-        className="rounded p-[10px]   cursor-pointer hover:bg-lightGreen transition-all duration-300"
+        className="rounded p-[10px]  cursor-pointer hover:bg-lightGreen transition-all duration-300"
         onClick={handleCLick}
       >
         {title}
