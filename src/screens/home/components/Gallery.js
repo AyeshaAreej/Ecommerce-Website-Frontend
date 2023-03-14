@@ -10,7 +10,7 @@ const Gallery = () => {
   }, []);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-14 bg-stone-600">
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-14 bg-stone-600">
       <div className="flex justify-center items-center">
         <h1 className="text-center pb-[80px] font-medium text-white text-[2rem] md:text-[2.5rem] tracking-[-3%] leading-[40px] md:leading-[70px] max-w-[600px] m-auto md:m-0">
           Gallery

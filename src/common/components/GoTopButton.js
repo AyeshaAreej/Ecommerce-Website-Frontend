@@ -25,7 +25,9 @@ const GoTopButton = () => {
       {isVisible && (
         <button
           onClick={handleClick}
-          className="fixed bottom-0 right-0 mb-2 p-3 rounded-full bg-green text-white hover:bg-lightGreen focus:outline-none focus:shadow-outline-blue"
+          className="fixed bottom-0 right-0 mb-2 p-3 rounded-full bg-stone-500 text-white hover:bg-stone-400
+          
+           focus:outline-none focus:shadow-outline-blue"
         >
           <svg
             className="w-6 h-6"

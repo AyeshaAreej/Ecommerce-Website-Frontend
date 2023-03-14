@@ -4,7 +4,11 @@ import { headerData } from "../data/headerData";
 import HeaderItem from "./HeaderItem";
 import Logo from "../../assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBars,
+  faXmark,
+  faCartShopping,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -50,6 +54,15 @@ const Header = () => {
               <HeaderItem key={item.id} title={item.title} url={item.url} />
             );
           })}
+          {/* <li>
+            <a className="rounded p-[10px]  cursor-pointer hover:bg-lightGreen transition-all duration-300">
+              <FontAwesomeIcon
+                icon={faCartShopping}
+                color={"#000"}
+                className="pr-2 "
+              />
+            </a>
+          </li> */}
         </ul>
 
         <input type="checkbox" id="check" hidden onClick={handleToggle} />
@@ -58,7 +71,7 @@ const Header = () => {
           class="relative float-right text-white text-3xl leading-[80px] pr-7 md:hidden cursor-pointer"
         >
           <li className="list-none">
-            <FontAwesomeIcon icon={faBars} color={"#419D78"} />
+            <FontAwesomeIcon icon={faBars} color={"#78716C"} />
           </li>
         </label>
       </div>
@@ -76,7 +89,7 @@ const Header = () => {
           class="relative float-right text-white text-3xl leading-[80px]  cursor-pointer"
         >
           <li className="list-none">
-            <FontAwesomeIcon icon={faXmark} color={"#419D78"} />
+            <FontAwesomeIcon icon={faXmark} color={"#78716C"} />
           </li>
         </label>
         {headerData.map((item) => {
@@ -89,6 +102,15 @@ const Header = () => {
             />
           );
         })}
+        {/* <li>
+          <a className="rounded p-[10px]  cursor-pointer hover:bg-lightGreen transition-all duration-300">
+            <FontAwesomeIcon
+              icon={faCartShopping}
+              color={"#fff"}
+              className=" "
+            />
+          </a>
+        </li> */}
       </ul>
     </>
   );

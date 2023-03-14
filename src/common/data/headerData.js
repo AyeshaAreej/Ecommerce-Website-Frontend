@@ -24,9 +24,4 @@ export const headerData = [
     title: "SignUp",
     url: "/signup",
   },
-  {
-    id: 6,
-    title: "Cart",
-    url: "/cart",
-  },
 ];
