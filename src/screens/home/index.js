@@ -1,7 +1,8 @@
 import React from "react";
 import Hero from "./components/Hero";
-import Posts from "./components/Posts";
+import Posts from "./components/Services";
 import Process from "./components/Process";
+import Gallery from "./components/Gallery";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero />
       <Process />
       <Posts />
+      <Gallery />
     </div>
   );
 };

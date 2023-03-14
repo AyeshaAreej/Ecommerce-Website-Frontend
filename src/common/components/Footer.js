@@ -24,7 +24,7 @@ const Footer = () => {
       style={{
         boxShadow: "0px 0px 40px  rgba(0,0,0,0.2)",
       }}
-      className="  backdrop-filter backdrop-blur-lg  footer w-[100%]  relative bottom-0 bg-[#9C9A7E] text-white pt-[50px] px-[30px]  shadow-xl  rounded-tl-[125px] leading-[20px] mt-[30px] "
+      className="  backdrop-filter backdrop-blur-lg  footer w-[100%]  relative bottom-0 bg-[#9C9A7E] text-white pt-[50px] px-[30px]  shadow-xl leading-[20px] mt-[0px] "
     >
       <div className="row grid grid-rows-4 sm:grid-rows-2 sm:grid-cols-2  md:grid-rows-1  md:grid-cols-4 gap-4 m-auto ">
         <div className="col p-[20px]">
@@ -80,7 +80,7 @@ const Footer = () => {
             </li>
             <li className="mb-[12px] hover:scale-y-150 ">
               <a
-                href="#aboutUs"
+                href="#services"
                 onClick={handleClick}
                 className="text-white text-[1rem] tracking-[0.9px] font-normal "
               >
@@ -89,7 +89,7 @@ const Footer = () => {
                   color={"#0F766E"}
                   className="pr-2 "
                 />
-                About Us
+                Services
               </a>
             </li>
             <li className="mb-[12px] hover:scale-y-150 ">
@@ -165,7 +165,7 @@ const Footer = () => {
       <hr />
       <div className="flex justify-center items-center m-auto">
         <p className=" text-[0.875rem] font-normal tracking-wider my-[20px]">
-          DevStudio © 2022 All Rights Reserved
+          HomeStyle © 2023 All Rights Reserved
         </p>
       </div>
     </div>
